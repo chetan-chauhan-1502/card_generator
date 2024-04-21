@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  background-color: black;
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  text-shadow: 0 0 10px blue, 0 0 10px blue, 0 0 10px blue;
+}
+form {
+  width: 90vw;
+  height: auto;
+  margin: auto;
+  margin-top: 30px;
+  padding: 30px;
+  background-color: black;
+  border-radius: 30px;
+}
+form label {
+  font-size: 1.3rem;
+  font-weight: bolder;
+  color: white;
+  font-weight: bolder;
+
+  /* background-color: red; */
+}
+form input {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  font-size: 1rem;
+  border-bottom: 1px solid #ccc;
+}
+form input[type="submit"] {
+  background-color: white;
+  color: black;
+  margin-top: 15px;
+  font-weight: bolder;
+}
+form input[type="submit"]:hover {
+  background-color: blue;
+}
+.error {
+  color: red;
+  font-weight: bold;
+}
+.submitted-data {
+  width: 90vw;
+  height: auto;
+  margin: auto;
+  margin-top: 30px;
+  display: flex;
+  background-color: black;
+  box-shadow: 0 0 10px white;
+  border-radius: 30px;
+}
+.user {
+  width: 30%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  border-radius: 30px;
+}
+.userIcon {
+  font-size: 8rem;
+  color: white;
+}
+.data {
+  width: 85%;
+  height: auto;
+  text-align: center;
+  padding: 20px;
+  /* background-color: aqua; */
+}
+.data p {
+  text-align: start;
+  width: 100%;
+  padding: 10px 0;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  color: white;
+}
+.data p span {
+  font-size: 1.3rem;
+  color: white;
+}
+.footer {
+  width: 100vw;
+  height: 8rem;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+@media (max-width: 515px) {
+  .submitted-data {
+    display: block;
+    padding: 30px;
+  }
+  .user {
+    margin: auto;
+  }
+  .data {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background-color: green;
+    border-radius: 30px;
+    margin-top: 10px;
+  }
+  .data p {
+    font-size: 1rem;
+  }
+  .data p span {
+    font-size: 0.8rem;
+  }
+}
